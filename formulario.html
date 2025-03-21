@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="procesar-datos.php" method="post">
+
+        <label for="nombre">Ingrese Nombre</label>
+        <input name="nombreeee" id="nombre" type="text" placeholder="Juan Pérez">
+        <br><br>
+
+        <label for="">Ingrese su sexo</label>
+        <label for="sexoM">
+            M
+            <input type="radio" id="sexoM" name="sexo" value="M">            
+        </label>
+
+        <label for="sexoF">
+            F
+            <input type="radio" id="sexoF" name="sexo" value="F">            
+        </label>
+        <br><br>
+
+        <label for="">Seleccione las frutas que quiera</label>
+        <label for="sexoM">
+            Manzana
+            <input type="checkbox" id="Manzana" name="fruta" value="manzana">            
+        </label>
+
+        <label for="sexoF">
+            Pera
+            <input type="checkbox" id="Pera" name="fruta" value="pera">            
+        </label>
+        <br><br>
+       
+        <select name="opcion" id="opcion">
+            <option value="" disabled selected>Seleccione una opcion</option>
+            <option value="valor1">Opcion xxxxxxx</option>
+            <option value="">Opcion xxxxxxx</option>
+            <option value="">Opcion xxxxxxx</option>
+            <option value="">Opcion xxxxxxx</option>
+        </select>
+        <br><br>
+
+        <label for="harto-texto">Ingrese una descripción larga</label><br>
+        <textarea cols="100" rows="10" name="harto-texto" id="harto-texto"></textarea>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+
+
+
+
+        
+
+    </form>
+
+
+</body>
+</html>
