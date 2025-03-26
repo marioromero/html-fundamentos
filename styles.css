@@ -1,0 +1,30 @@
+ /*selector de etiqueta*/
+ label{
+    color: #494949;
+    font-size: 20px;
+}
+
+/*selector de id*/
+#nombre{
+    border-color: red;
+}
+
+.input-texto{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+/*selector de clase*/
+.formulario{
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    width: 300px;
+    /*centrar el formulario*/
+    margin-left: auto;
+    margin-right: auto;
+}

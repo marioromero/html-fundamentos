@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       
+        
+
+    </style>
 </head>
 <body>
     
-    <form action="procesar-datos.php" method="post">
+    <form action="procesar-datos.php" method="post" class="formulario">
 
-        <label for="nombre">Ingrese Nombre</label>
-        <input name="nombreeee" id="nombre" type="text" placeholder="Juan Pérez">
+        <label id="label-nombre" for="nombre">Ingrese Nombre</label>
+        <input class="input-texto" name="nombreeee" id="nombre" type="text" placeholder="Juan Pérez">
+        <br><br>
+
+        <label id="label-nombre" for="direccion">Ingrese Direccion</label>
+        <input class="input-texto" name="direccion" id="direccion" type="text" placeholder="Juan Pérez">
         <br><br>
 
         <label for="">Ingrese su sexo</label>
@@ -47,15 +57,10 @@
         <br><br>
 
         <label for="harto-texto">Ingrese una descripción larga</label><br>
-        <textarea cols="100" rows="10" name="harto-texto" id="harto-texto"></textarea>
+        <textarea cols="25" rows="10" name="harto-texto" id="harto-texto"></textarea>
         <br><br>
 
-        <input type="submit" value="Enviar">
-
-
-
-
-        
+        <input style="background-color: aqua; width: 100%; height: 50px; font-size: 25px;" type="submit" value="Enviar">     
 
     </form>
 
