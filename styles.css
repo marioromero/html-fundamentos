@@ -1,3 +1,7 @@
+ body{
+    margin: 0;
+    padding: 0;
+ }
  /*selector de etiqueta*/
  label{
     color: #494949;
@@ -27,4 +31,20 @@
     /*centrar el formulario*/
     margin-left: auto;
     margin-right: auto;
+}
+
+#div-izq{
+    max-width: 49%;
+    display: inline-block; /*block none inline */
+    position: relative; /* fixed absolute*/
+    text-align: justify; /* center right left */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#div-der{
+    max-width: 49%;
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
